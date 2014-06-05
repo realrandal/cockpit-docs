@@ -11,7 +11,7 @@ Do you have some assets you want to combine to speed up your site's response tim
         "style1.css",
         "style.less",  // less file
         "style.scss"   // sass file
-    ], 'my.assets' [, $cachetime=0]);
+    ], 'my.assets', [$cachetime=0]);
 
 <div class="uk-alert">
     All .less and .scss files will be auto parsed and converted to css.
@@ -19,7 +19,7 @@ Do you have some assets you want to combine to speed up your site's response tim
 
 Shortcut version:
 
-    <?php assets([...], 'my.assets' [, $cachetime=0]); ?>
+    <?php assets([...], 'my.assets', [$cachetime=0]); ?>
 
 
 The result are two files, each with all css and js files combined:
